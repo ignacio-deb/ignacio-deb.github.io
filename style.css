@@ -1,0 +1,116 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Open Sans'
+}
+header .container{
+	height: 47px;
+	background: rgb(118, 40, 161);
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	align-items: center;
+
+}
+header .container-nav a{
+	text-decoration: none;
+	margin: 10px;
+	color: rgb(238, 239, 240)
+}
+header .container-nav a:hover{
+	color: white;
+}
+header .logo{
+	color: white
+}
+header ul{
+	list-style: none;
+}
+.form-main{
+	text-align: center;
+}
+.form{
+	background: rgb(128, 128, 240);
+	min-height: 300px;
+	min-width:  300px;
+	max-height: 250px; 
+	max-width: 500px;
+	margin: auto;
+	border-radius: 4px;
+}
+.form__input{
+	outline: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom-color: rgb(24, 132, 240);
+	width: 350px;
+    height: 30px;
+    margin-top: 10px; 
+}
+.form__input:focus{
+	background: linear-gradient(to top, #AAA, white 50%);
+}
+#form-first-box{
+	margin-top: 30px;
+}
+.text-register{
+	font-size: 20px;
+	padding: 10px;
+	margin-top: 10px;
+	color: white;
+}
+.button-send{
+	background-color: rgb(24, 132, 240);
+	color: white;
+	font-size: 16px;
+	text-transform: bold;
+	margin-top: 15px;
+	height: 30px;
+	width: 350px;
+	border: none;	
+	border-radius: 3px;
+	cursor: pointer;
+}
+.article{
+	display: inline-grid;
+	text-align: center;
+	height: 150px;
+	width: 100px;
+	border-radius: 3px;
+	padding: 10px;
+	margin: 10px 0 0 10px;
+	background: white;
+	border: 2px solid rgb(24, 132, 240);
+
+}
+.article{
+	text-align: center;
+}
+.image-anime{
+	margin-top: 15px;
+	object-fit: cover;
+	height: 100px;
+	width: 100px;
+}
+.article a{
+	color: black;
+}
+.footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	width: 90%;
+	margin: auto;
+	padding-top: 5px;
+	border-top: 1px solid #AAA;
+}
+.footer-div{
+	font-size: 13px;
+	margin: 5px;
+
+}
